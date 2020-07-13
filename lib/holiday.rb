@@ -38,11 +38,11 @@ end
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
   # code here
   # remember to return the updated hash
-all_holidays_with_bbq(holiday_supplies)
+#all_holidays_with_bbq(holiday_supplies)
 end
 
-def all_winter_holiday_supplies(holiday_hash)
-  winter.each do |supply|
+def all_winter_holiday_supplies(holiday_supplies)
+  winter.each do |key, supply|
     supply
 end
 all_winter_holiday_supplies(holiday_supplies)
@@ -62,7 +62,7 @@ end
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
   # include the string "BBQ"
-all_holidays_with_bbq(holiday_supplies) = 
+#all_holidays_with_bbq(holiday_supplies) = 
 end
 
 
